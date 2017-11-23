@@ -1,0 +1,11 @@
+{
+  "name": "simula_image_extractor",
+  "version": "1.0.0",
+  "main": "script.js",
+  "author": "Guilherme Sehn <ghsehn@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jimp": "^0.2.28",
+    "rimraf": "^2.6.2"
+  }
+}
