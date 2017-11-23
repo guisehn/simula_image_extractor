@@ -14,7 +14,7 @@ const IMAGE_START_INDEX = 8
 const IMAGE_END_INDEX = IMAGE_START_INDEX + (IMAGE_WIDTH * IMAGE_HEIGHT) - 1
 
 if (!fileName || fileName.trim() === '') {
-	throw new Error('Invalid file name')
+  throw new Error('Invalid file name')
 }
 
 if (!fs.existsSync(fileName)) {
